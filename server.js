@@ -36,6 +36,10 @@ app.post('/upload', (req, res) => {
     })
 })
 
+// app.get("/admin", (_req, res) => {
+//     res.sendFile(path.join(initial_path, "dashboard.html"));
+// })
+
 app.get("/:blog", (_req, res) => {
     res.sendFile(path.join(initial_path, "blog.html"));
 })
